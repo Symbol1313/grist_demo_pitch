@@ -1,1 +1,5 @@
-
+FROM gristlabs/grist-oss
+EXPOSE 8484
+ENV GRIST_DEFAULT_EMAIL=admin@example.com
+ENV GRIST_DEFAULT_PASSWORD=password123
+ENV GRIST_BOOT_KEY=supersecretkey123
